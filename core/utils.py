@@ -12,13 +12,13 @@ def yelp_search(keyword=None, location=None):
     if keyword and location:
         params = {'term': keyword, 'location': location}
     else:
-        params = {'term': 'Pizzaria', 'location': 'São Paulo'}
+        params = {'term': 'Pizza', 'location': 'São Paulo'}
     
     r = requests.get(YELP_SEARCH_ENDPOINT, headers=headers, params=params)
 
     return r.json()
 
-def get_client_city_data():
+def get_client_data():
     g = GeoIP2()
     ip = get_random_ip()
     try:
