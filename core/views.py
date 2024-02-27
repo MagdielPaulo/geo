@@ -31,4 +31,4 @@ class IndexView(View):
                 'search': True
             }
        
-        return render(request, 'index.html', context)
+        return render(request, 'base.html', context)
