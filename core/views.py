@@ -7,7 +7,8 @@ class IndexView(View):
     def get(self, request, *args, **kwargs):
         items = []
 
-        city = None 
+        city = None
+        test = loc 
 
         while not city:
             ret = get_client_data()
