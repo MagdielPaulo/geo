@@ -1,0 +1,15 @@
+<div class="col-sm-6">
+    <h3 class="text-primary">Localidades</h3>
+    <div id="mapDiv" class="gmap"></div>
+</div>
+</div>
+<script>
+    var lat = {{ items.businesses.0.coorinates.latitude | safe}};
+    var lon = {{ items.businesses.0.coorinates.latitude | safe}};
+
+    var map = L.map('mapDiv').setView([lat, fon], 13); //0 até 18
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        
+    }
+</script>
