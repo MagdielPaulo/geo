@@ -15,4 +15,4 @@ O objetivo desta pequena aplicação é identificar o local geográfico de um us
     - Desenvolvimento de utilitários para gerar IPs dinamicamente, simulando diferentes localidades.
     - Esses IPs simulados serão utilizados para demonstrar a funcionalidade da aplicação em diferentes contextos geográficos.
     
-    Criação de scripts ou funções para gerar IPs de forma dinâmica, simulando diferentes localidades geográficas.
+    Criação de scripts ou funções para gerar IPs de forma dinâmica, simulando diferentes localidades geográficass.
